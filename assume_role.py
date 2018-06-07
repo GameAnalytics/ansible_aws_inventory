@@ -3,7 +3,7 @@
 
 from collections import namedtuple
 
-DEFAULT_REGION = "ap-southeast-2"
+DEFAULT_REGION = "us-east-1"
 
 account_template = namedtuple("account_template", ["name", "number", "region"])
 account = namedtuple("account", ["name", "arn", "region"])
