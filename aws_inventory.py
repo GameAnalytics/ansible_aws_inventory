@@ -21,7 +21,7 @@ try:
     from assume_role import accounts, DEFAULT_REGION  # dict: master profile name: {profile name: child role arn, ...}
 except:
     accounts = {}
-    DEFAULT_REGION = "ap-southeast-2"
+    DEFAULT_REGION = "us-east-1"
 
 from grouper import group
 
